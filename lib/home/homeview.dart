@@ -23,8 +23,8 @@ class _HomeViewState extends State<HomeView> {
           children: <Widget>[
             const Navbar(),
 
-            Expanded(child: Row(children: <Widget>[
-              const CourseDetail(),
+            Expanded(child: Row(children: const <Widget>[
+              CourseDetail(),
               Expanded(child: Center(child: CallToAction(title: 'Get In Touch'),))
             ],))
           ],
